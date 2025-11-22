@@ -1,0 +1,10 @@
+name = "Ayesha"
+hometown = "Cavite"
+age = 17 
+
+info = { 
+    "name": name,
+    "hometown": hometown,
+    "age": age,
+}
+print (info["name"], info["hometown"], info["age"], sep="\n")
