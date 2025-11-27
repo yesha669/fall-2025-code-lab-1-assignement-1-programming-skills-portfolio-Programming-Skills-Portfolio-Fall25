@@ -1,0 +1,15 @@
+correct_password = "12345" 
+attepmts = 5
+
+while attepmts > 0:
+    password = input ("Enter the passowrd:")
+
+    if password == correct_password:
+        print ("Access granted")
+        break
+    else:
+        attepmts-= 1
+        if attepmts > 0:
+            print (f"Incorrect password. You have {attepmts} attempts left.\n" ) 
+        else:
+            print ("Too many wrong attempts. The authorities have been alerted.")

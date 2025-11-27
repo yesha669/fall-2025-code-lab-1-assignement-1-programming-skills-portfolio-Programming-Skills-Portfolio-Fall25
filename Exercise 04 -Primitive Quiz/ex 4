@@ -1,0 +1,30 @@
+questions = { 
+    "France": "Paris",
+     "Sweden": "Stockholm",
+     "Spain": "Madrid",   
+     "Netherlands": "Amsterdam",
+     "Italy":"Rome",
+     "Poland": "Warsaw",
+     "Ukraine": "Kyiv",
+     "Greece": "Athens",
+     "Norway": "Olso",
+     "Switzerland": "Bern",
+ }
+
+for country, capital in questions.items():
+    user_answer= input (f"What is the Capital of {country}? ")
+    if user_answer.lower() == capital.lower():
+        print("Correct!\n")
+    else:
+        print(f"Wrong! The correct answer is {capital}.\n")
+    
+
+     
+
+
+
+
+
+
+
+
